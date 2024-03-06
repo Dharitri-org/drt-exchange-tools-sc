@@ -1,0 +1,101 @@
+[package]
+name = "locked-token-pos-creator"
+version = "0.0.0"
+authors = ["you"]
+edition = "2018"
+publish = false
+
+[lib]
+path = "src/lib.rs"
+
+[dependencies.dharitri-sc]
+version = "=0.13.6"
+features = [
+    "dct-token-payment-legacy-decode",
+]
+
+[dependencies.auto-pos-creator]
+path = "../auto-pos-creator"
+
+[dependencies.energy-query]
+git = "https://github.com/Dharitri-org/drt-exchange-sc"
+rev = "b66c644"
+
+[dependencies.utils]
+git = "https://github.com/Dharitri-org/drt-exchange-sc"
+rev = "b66c644"
+
+[dependencies.energy-factory]
+git = "https://github.com/Dharitri-org/drt-exchange-sc"
+rev = "b66c644"
+
+[dependencies.pair]
+git = "https://github.com/Dharitri-org/drt-exchange-sc"
+rev = "b66c644"
+
+[dependencies.router]
+git = "https://github.com/Dharitri-org/drt-exchange-sc"
+rev = "b66c644"
+
+[dependencies.proxy_dex]
+git = "https://github.com/Dharitri-org/drt-exchange-sc"
+rev = "b66c644"
+
+[dependencies.common_structs]
+git = "https://github.com/Dharitri-org/drt-exchange-sc"
+rev = "b66c644"
+
+[dependencies.simple-lock]
+git = "https://github.com/Dharitri-org/drt-exchange-sc"
+rev = "b66c644"
+
+[dev-dependencies]
+num-bigint = "0.4.2"
+num-traits = "0.2"
+hex = "0.4"
+
+[dev-dependencies.dharitri-sc-scenario]
+version = "=0.13.6"
+
+[dev-dependencies.dharitri-sc-modules]
+version = "=0.13.6"
+
+[dev-dependencies.pausable]
+git = "https://github.com/Dharitri-org/drt-exchange-sc"
+rev = "b66c644"
+
+[dev-dependencies.farm_base_impl]
+git = "https://github.com/Dharitri-org/drt-exchange-sc"
+rev = "b66c644"
+
+[dev-dependencies.config]
+git = "https://github.com/Dharitri-org/drt-exchange-sc"
+rev = "b66c644"
+
+[dev-dependencies.farm_token]
+git = "https://github.com/Dharitri-org/drt-exchange-sc"
+rev = "b66c644"
+
+[dev-dependencies.rewards]
+git = "https://github.com/Dharitri-org/drt-exchange-sc"
+rev = "b66c644"
+
+[dev-dependencies.sc_whitelist_module]
+git = "https://github.com/Dharitri-org/drt-exchange-sc"
+rev = "b66c644"
+
+[dev-dependencies.farm-boosted-yields]
+git = "https://github.com/Dharitri-org/drt-exchange-sc"
+rev = "b66c644"
+
+[dev-dependencies.farm]
+git = "https://github.com/Dharitri-org/drt-exchange-sc"
+rev = "b66c644"
+
+[dev-dependencies.farm-with-locked-rewards]
+git = "https://github.com/Dharitri-org/drt-exchange-sc"
+rev = "b66c644"
+
+[dev-dependencies.locking_module]
+git = "https://github.com/Dharitri-org/drt-exchange-sc"
+rev = "b66c644"

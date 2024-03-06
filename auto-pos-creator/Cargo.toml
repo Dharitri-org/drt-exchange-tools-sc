@@ -1,0 +1,95 @@
+[package]
+name = "auto-pos-creator"
+version = "0.0.0"
+authors = ["you"]
+edition = "2018"
+publish = false
+
+[lib]
+path = "src/lib.rs"
+
+[dependencies.dharitri-sc]
+version = "=0.13.6"
+features = [
+    "dct-token-payment-legacy-decode",
+]
+
+[dependencies.dharitri-sc-modules]
+version = "=0.13.6"
+
+[dependencies.farm]
+git = "https://github.com/Dharitri-org/drt-exchange-sc"
+rev = "b66c644"
+
+[dependencies.farm-with-locked-rewards]
+git = "https://github.com/Dharitri-org/drt-exchange-sc"
+rev = "b66c644"
+
+[dependencies.farm-staking]
+git = "https://github.com/Dharitri-org/drt-exchange-sc"
+rev = "b66c644"
+
+[dependencies.farm-staking-proxy]
+git = "https://github.com/Dharitri-org/drt-exchange-sc"
+rev = "b66c644"
+
+[dependencies.pair]
+git = "https://github.com/Dharitri-org/drt-exchange-sc"
+rev = "b66c644"
+
+[dependencies.router]
+git = "https://github.com/Dharitri-org/drt-exchange-sc"
+rev = "b66c644"
+
+[dependencies.energy-factory]
+git = "https://github.com/Dharitri-org/drt-exchange-sc"
+rev = "b66c644"
+
+[dependencies.common_structs]
+git = "https://github.com/Dharitri-org/drt-exchange-sc"
+rev = "b66c644"
+
+[dependencies.mergeable]
+git = "https://github.com/Dharitri-org/drt-exchange-sc"
+rev = "b66c644"
+
+[dependencies.utils]
+git = "https://github.com/Dharitri-org/drt-exchange-sc"
+rev = "b66c644"
+
+[dependencies.energy-query]
+git = "https://github.com/Dharitri-org/drt-exchange-sc"
+rev = "b66c644"
+
+[dependencies.legacy_token_decode_module]
+git = "https://github.com/Dharitri-org/drt-exchange-sc"
+rev = "b66c644"
+
+[dependencies.lkmex-transfer]
+git = "https://github.com/Dharitri-org/drt-exchange-sc"
+rev = "b66c644"
+
+[dependencies.dharitri-wmoax-swap-sc]
+git = "https://github.com/Dharitri-org/drt-contract-rs/"
+rev = "97a79c0"
+
+[dev-dependencies]
+num-bigint = "0.4.2"
+num-traits = "0.2"
+hex = "0.4"
+hex-literal = "0.4.1"
+
+[dev-dependencies.dharitri-sc-scenario]
+version = "=0.13.6"
+
+[dev-dependencies.tests-common]
+path = "../tests-common"
+features = ["enable-tests-common"]
+
+[dev-dependencies.pausable]
+git = "https://github.com/Dharitri-org/drt-exchange-sc"
+rev = "b66c644"
+
+[dev-dependencies.sc_whitelist_module]
+git = "https://github.com/Dharitri-org/drt-exchange-sc"
+rev = "b66c644"

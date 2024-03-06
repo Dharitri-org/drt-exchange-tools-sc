@@ -1,0 +1,42 @@
+[package]
+name = "composable-tasks"
+version = "0.0.0"
+authors = ["you"]
+edition = "2018"
+publish = false
+
+[lib]
+path = "src/lib.rs"
+
+[dev-dependencies]
+num-bigint = "0.4.2"
+
+[dev-dependencies.dharitri-sc-scenario]
+version = "0.13.6"
+
+[dev-dependencies.pausable]
+git = "https://github.com/Dharitri-org/drt-exchange-sc"
+rev = "b66c644"
+
+[dependencies.dharitri-sc]
+version = "0.13.6"
+
+[dependencies.farm]
+git = "https://github.com/Dharitri-org/drt-exchange-sc"
+rev = "b66c644"
+
+[dependencies.farm-with-locked-rewards]
+git = "https://github.com/Dharitri-org/drt-exchange-sc"
+rev = "b66c644"
+
+[dependencies.pair]
+git = "https://github.com/Dharitri-org/drt-exchange-sc"
+rev = "b66c644"
+
+[dependencies.router]
+git = "https://github.com/Dharitri-org/drt-exchange-sc"
+rev = "b66c644"
+
+[dependencies.dharitri-wmoax-swap-sc]
+git = "https://github.com/Dharitri-org/drt-contract-rs"
+rev = "97a79c0"

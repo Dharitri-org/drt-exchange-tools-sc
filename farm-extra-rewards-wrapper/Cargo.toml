@@ -1,0 +1,104 @@
+[package]
+name = "farm-extra-rewards-wrapper"
+version = "0.0.0"
+authors = ["you"]
+edition = "2018"
+publish = false
+
+[lib]
+path = "src/lib.rs"
+
+[dependencies.farm]
+git = "https://github.com/Dharitri-org/drt-exchange-sc"
+rev = "b66c644"
+
+[dependencies.farm-with-locked-rewards]
+git = "https://github.com/Dharitri-org/drt-exchange-sc"
+rev = "b66c644"
+
+[dependencies.config]
+git = "https://github.com/Dharitri-org/drt-exchange-sc"
+rev = "b66c644"
+
+[dependencies.farm_token]
+git = "https://github.com/Dharitri-org/drt-exchange-sc"
+rev = "b66c644"
+
+[dependencies.rewards]
+git = "https://github.com/Dharitri-org/drt-exchange-sc"
+rev = "b66c644"
+
+[dependencies.contexts]
+git = "https://github.com/Dharitri-org/drt-exchange-sc"
+rev = "b66c644"
+
+[dependencies.farm_base_impl]
+git = "https://github.com/Dharitri-org/drt-exchange-sc"
+rev = "b66c644"
+
+[dependencies.token_send]
+git = "https://github.com/Dharitri-org/drt-exchange-sc"
+rev = "b66c644"
+
+[dependencies.pausable]
+git = "https://github.com/Dharitri-org/drt-exchange-sc"
+rev = "b66c644"
+
+[dependencies.permissions_module]
+git = "https://github.com/Dharitri-org/drt-exchange-sc"
+rev = "b66c644"
+
+[dependencies.common_structs]
+git = "https://github.com/Dharitri-org/drt-exchange-sc"
+rev = "b66c644"
+
+[dependencies.fixed-supply-token]
+git = "https://github.com/Dharitri-org/drt-exchange-sc"
+rev = "b66c644"
+
+[dependencies.mergeable]
+git = "https://github.com/Dharitri-org/drt-exchange-sc"
+rev = "b66c644"
+
+[dependencies.unwrappable]
+git = "https://github.com/Dharitri-org/drt-exchange-sc"
+rev = "b66c644"
+
+[dependencies.math]
+git = "https://github.com/Dharitri-org/drt-exchange-sc"
+rev = "b66c644"
+
+[dependencies.utils]
+git = "https://github.com/Dharitri-org/drt-exchange-sc"
+rev = "b66c644"
+
+[dependencies.auto-farm]
+path = "../auto-farm"
+
+[dependencies.dharitri-sc]
+version = "=0.13.6"
+features = ["dct-token-payment-legacy-decode"]
+
+[dependencies.dharitri-sc-modules]
+version = "=0.13.6"
+
+[dev-dependencies]
+num-bigint = "0.4.2"
+num-traits = "0.2"
+hex = "0.4"
+hex-literal = "0.3.4"
+
+[dev-dependencies.tests-common]
+path = "../tests-common"
+features = ["enable-tests-common"]
+
+[dev-dependencies.dharitri-sc-scenario]
+version = "=0.13.6"
+
+[dev-dependencies.energy-factory]
+git = "https://github.com/Dharitri-org/drt-exchange-sc"
+rev = "b66c644"
+
+[dev-dependencies.sc_whitelist_module]
+git = "https://github.com/Dharitri-org/drt-exchange-sc"
+rev = "b66c644"
