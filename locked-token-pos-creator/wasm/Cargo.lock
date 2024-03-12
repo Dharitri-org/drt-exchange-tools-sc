@@ -517,7 +517,7 @@ dependencies = [
 [[package]]
 name = "dharitri-wmoax-swap-sc"
 version = "0.46.0"
-source = "git+https://github.com/Dharitri-org/drt-contract-rs/?rev=97a79c0#97a79c0f3d42ab2fb3e06a753a5f107cb55f8e29"
+source = "git+https://github.com/Dharitri-org/drt-contract-rs/?rev=83d878b#83d878b31f3dbe42249d511ea7aade8a57cf7881"
 dependencies = [
  "dharitri-sc",
  "dharitri-sc-modules",

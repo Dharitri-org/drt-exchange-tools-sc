@@ -71,7 +71,7 @@ rev = "b66c644"
 
 [dependencies.dharitri-wmoax-swap-sc]
 git = "https://github.com/Dharitri-org/drt-contract-rs/"
-rev = "97a79c0"
+rev = "83d878b"
 
 [dev-dependencies]
 num-bigint = "0.4.2"
